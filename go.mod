@@ -1,6 +1,6 @@
 module github.com/AdguardTeam/AdGuardHome
 
-go 1.19
+go 1.22
 
 require (
 	// TODO(a.garipov): Use v0.48.0 when it's released.
@@ -13,7 +13,7 @@ require (
 	github.com/dimfeld/httptreemux/v5 v5.5.0
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/go-ping/ping v1.1.0
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/google/gopacket v1.1.19
 	github.com/google/renameio v1.0.1
 	github.com/google/uuid v1.3.0
@@ -25,14 +25,14 @@ require (
 	// our own code for that.  Perhaps, use gopacket.
 	github.com/mdlayher/raw v0.1.0
 	github.com/miekg/dns v1.1.50
-	github.com/quic-go/quic-go v0.32.0
-	github.com/stretchr/testify v1.8.1
+	github.com/quic-go/quic-go v0.49.1
+	github.com/stretchr/testify v1.9.0
 	github.com/ti-mo/netfilter v0.5.0
 	go.etcd.io/bbolt v1.3.7
-	golang.org/x/crypto v0.5.0
-	golang.org/x/exp v0.0.0-20230206171751-46f607a40771
-	golang.org/x/net v0.5.0
-	golang.org/x/sys v0.5.0
+	golang.org/x/crypto v0.26.0
+	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
+	golang.org/x/net v0.28.0
+	golang.org/x/sys v0.23.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
 	howett.net/plist v1.0.0
@@ -45,23 +45,20 @@ require (
 	github.com/beefsack/go-rate v0.0.0-20220214233405-116f4ca011a0 // indirect
 	github.com/bluele/gcache v0.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
-	github.com/golang/mock v1.6.0 // indirect
+	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/google/pprof v0.0.0-20230207041349-798e818bf904 // indirect
 	github.com/josharian/native v1.1.0 // indirect
 	github.com/mdlayher/packet v1.1.1 // indirect
 	github.com/mdlayher/socket v0.4.0 // indirect
-	github.com/onsi/ginkgo/v2 v2.8.0 // indirect
+	github.com/onsi/ginkgo/v2 v2.9.5 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/quic-go/qpack v0.4.0 // indirect
-	github.com/quic-go/qtls-go1-18 v0.2.0 // indirect
-	github.com/quic-go/qtls-go1-19 v0.2.0 // indirect
-	github.com/quic-go/qtls-go1-20 v0.1.0 // indirect
+	github.com/quic-go/qpack v0.5.1 // indirect
 	github.com/u-root/uio v0.0.0-20221213070652-c3537552635f // indirect
-	golang.org/x/mod v0.7.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/text v0.6.0 // indirect
-	golang.org/x/tools v0.5.0 // indirect
+	go.uber.org/mock v0.5.0 // indirect
+	golang.org/x/mod v0.18.0 // indirect
+	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/text v0.17.0 // indirect
+	golang.org/x/tools v0.22.0 // indirect
 )
