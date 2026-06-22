@@ -46,7 +46,7 @@
         "url-polyfill": "^1.1.9"
     },
     "devDependencies": {
-        "@babel/core": "^7.9.6",
+        "@babel/core": "^7.29.6",
         "@babel/plugin-proposal-class-properties": "^7.8.3",
         "@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
         "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
